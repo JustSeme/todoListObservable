@@ -36,7 +36,7 @@ const TodoList = () => {
                     onKeyDown={(e) => {
                         if(e.keyCode === 13) onTodoAdded()
                     }}
-                    label="What need to be done?"
+                    label="Новая задача..."
                     variant='outlined'
                     error={inputError}
                 />

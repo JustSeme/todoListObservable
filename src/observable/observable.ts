@@ -2,7 +2,6 @@ type Listenner<T> = (val: T) => void
 type Unsubscriber = () => void
 
 export class Observable<T> {
-    //@ts-ignore
     private _listenners : Listenner<T>[] = []
 
     constructor(private _val: T) {}
